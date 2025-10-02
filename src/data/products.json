@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "aurora-headphones",
+      "title": "Aurora Headphones",
+      "description": "Bezprzewodowe słuchawki z ANC i 30h pracy.",
+      "price": 399,
+      "currency": "PLN",
+      "images": ["/images/products/g735.webp"],
+      "category": "electronics",
+      "rating": 4.5,
+      "stock": 42
+    },
+    {
+      "id": 2,
+      "slug": "polar-smartwatch",
+      "title": "Polar Smartwatch",
+      "description": "Lekki smartwatch z GPS i NFC.",
+      "price": 699,
+      "currency": "PLN",
+      "images": ["/images/products/polar.png"],
+      "category": "electronics",
+      "rating": 4.2,
+      "stock": 12
+    },
+    {
+      "id": 3,
+      "slug": "linen-shirt",
+      "title": "Linen Shirt",
+      "description": "Koszula z lnu premium na lato.",
+      "price": 189,
+      "currency": "PLN",
+      "images": ["/images/products/linen-shirt.webp"],
+      "category": "fashion",
+      "rating": 4.1,
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "slug": "oak-lamp",
+      "title": "Oak Lamp",
+      "description": "Lampka nocna z drewna dębowego.",
+      "price": 249,
+      "currency": "PLN",
+      "images": ["/images/products/oak-lamp.webp"],
+      "category": "home",
+      "rating": 4.7,
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "slug": "kids-bricks",
+      "title": "Kids Bricks",
+      "description": "Zestaw klocków kreatywnych 1200+ el.",
+      "price": 129,
+      "currency": "PLN",
+      "images": ["/images/products/kids-bricks.webp"],
+      "category": "toys",
+      "rating": 4.6,
+      "stock": 100
+    },
+    {
+      "id": 6,
+      "slug": "rose-serum",
+      "title": "Rose Serum",
+      "description": "Serum nawilżające z różą damasceńską.",
+      "price": 99,
+      "currency": "PLN",
+      "images": ["/images/products/rose-serum.webp"],
+      "category": "beauty",
+      "rating": 4.3,
+      "stock": 60
+    }
+  ]
+}
