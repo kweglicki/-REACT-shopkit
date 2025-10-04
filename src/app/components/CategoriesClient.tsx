@@ -7,14 +7,14 @@ const CATS = ['all', 'electronics', 'fashion', 'home', 'toys', 'beauty'] as cons
 export function CategoriesClient() {
   const sp = useSearchParams();
   const router = useRouter();
-  const pathname = usePathname();
   const active = (sp.get('category') ?? 'all').toLowerCase();
 
   function setCat(cat: string) {
     const params = new URLSearchParams(sp.toString());
     if (cat === 'all') params.delete('category');
     else params.set('category', cat);
-    router.push(`${pathname}?${params.toString()}`);
+    const qs = params.toString();
+    router.push(qs ? `/?${qs}` : `/`);
   }
 
   return (

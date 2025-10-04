@@ -7,7 +7,7 @@
       "description": "Bezprzewodowe słuchawki z ANC i 30h pracy.",
       "price": 399,
       "currency": "PLN",
-      "images": ["/images/products/g735.webp"],
+      "images": ["/images/products/g735.png"],
       "category": "electronics",
       "rating": 4.5,
       "stock": 42
@@ -31,7 +31,7 @@
       "description": "Koszula z lnu premium na lato.",
       "price": 189,
       "currency": "PLN",
-      "images": ["/images/products/linen-shirt.webp"],
+      "images": ["/images/products/linen-shirt.png"],
       "category": "fashion",
       "rating": 4.1,
       "stock": 30
@@ -43,7 +43,7 @@
       "description": "Lampka nocna z drewna dębowego.",
       "price": 249,
       "currency": "PLN",
-      "images": ["/images/products/oak-lamp.webp"],
+      "images": ["/images/products/oak-lamp.png"],
       "category": "home",
       "rating": 4.7,
       "stock": 15
@@ -55,7 +55,7 @@
       "description": "Zestaw klocków kreatywnych 1200+ el.",
       "price": 129,
       "currency": "PLN",
-      "images": ["/images/products/kids-bricks.webp"],
+      "images": ["/images/products/kids-bricks.png"],
       "category": "toys",
       "rating": 4.6,
       "stock": 100
@@ -67,7 +67,7 @@
       "description": "Serum nawilżające z różą damasceńską.",
       "price": 99,
       "currency": "PLN",
-      "images": ["/images/products/rose-serum.webp"],
+      "images": ["/images/products/rose-serum.png"],
       "category": "beauty",
       "rating": 4.3,
       "stock": 60

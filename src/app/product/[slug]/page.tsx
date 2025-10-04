@@ -1,6 +1,6 @@
 import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query';
 import { productQuery } from '@/lib/queries';
-import { ProductDetailsClient } from '@/components/ProductDetailsClient';
+import { ProductDetailsClient } from '../../components/ProductDetailsClient';
 import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
@@ -8,15 +8,15 @@ export async function generateStaticParams() {
   return [];
 }
 
-export default async function ProductPage({ params }: { params: { slug: string } }) {
+export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const qc = new QueryClient();
-  const q = productQuery(params.slug);
+  const { slug } = await params;
+  const q = productQuery(slug);
   await qc.prefetchQuery(q);
   const state = dehydrate(qc);
-  // jeśli fetch nie znajdzie produktu, queryFn rzuci → przechwycimy w kliencie; tu opcjonalnie 404
   return (
     <HydrationBoundary state={state}>
-      <ProductDetailsClient slug={params.slug} />
+      <ProductDetailsClient slug={slug} />
     </HydrationBoundary>
   );
 }
